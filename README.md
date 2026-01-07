@@ -10,7 +10,9 @@
 
 <div align="center">
 
-<a href="https://digishop.gmrafi.com.bd/checkout/buy/007b3ec2-6f50-4d35-bf50-fa5c6eeef67e" style="background-color: #FFB84D; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; margin: 10px 0;">🛒 Purchase License Now</a>
+## 🛒 [**PURCHASE LICENSE NOW**](https://digishop.gmrafi.com.bd/checkout/buy/007b3ec2-6f50-4d35-bf50-fa5c6eeef67e)
+
+*Get your license key to deploy this template live on the internet*
 
 </div>
 
