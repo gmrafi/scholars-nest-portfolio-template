@@ -10,7 +10,7 @@
 
 <div align="center">
 
-[![Purchase License](https://img.shields.io/badge/Purchase_License-Lemon_Squeezy-FFB84D?style=for-the-badge&logo=stripe&logoColor=white)](https://digishop.gmrafi.com.bd/checkout/buy/007b3ec2-6f50-4d35-bf50-fa5c6eeef67e)
+<a href="https://digishop.gmrafi.com.bd/checkout/buy/007b3ec2-6f50-4d35-bf50-fa5c6eeef67e" style="background-color: #FFB84D; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; display: inline-block; margin: 10px 0;">🛒 Purchase License Now</a>
 
 </div>
 
