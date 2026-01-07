@@ -1,0 +1,90 @@
+SCHOLARNEST TEMPLATE LICENSE AGREEMENT
+
+Last Updated: January 7, 2026
+
+This License Agreement ("Agreement") is between you ("Licensee") and Md Golam Mubasshir Rafi ("Licensor") for the ScholarNest Academic Portfolio Template ("Template").
+
+BY PURCHASING AND USING THIS TEMPLATE, YOU AGREE TO BE BOUND BY THESE TERMS.
+
+---
+
+1. GRANT OF LICENSE
+
+Licensor grants Licensee a non-exclusive, non-transferable license to use the Template for personal and commercial purposes, subject to the restrictions below.
+
+---
+
+2. PERMITTED USES
+
+✅ You may:
+- Use the Template for your personal or business website
+- Modify the Template to suit your needs
+- Host the modified Template on any web server
+- Create derivative works based on the Template
+
+---
+
+3. RESTRICTIONS
+
+❌ You may NOT:
+- Resell, redistribute, or sublicense the original Template files
+- Claim ownership of the original Template design
+- Remove or alter license verification systems
+- Use the Template in violation of applicable laws
+
+---
+
+4. LICENSE VERIFICATION
+
+- The Template includes license key verification
+- Valid license key required for full functionality
+- License keys are issued by Lemon Squeezy
+- Licensee must maintain valid license for continued use
+
+---
+
+5. INTELLECTUAL PROPERTY
+
+- Template design and code © Md Golam Mubasshir Rafi
+- Third-party components retain their original licenses
+- Licensee retains rights to their content and modifications
+
+---
+
+6. WARRANTY DISCLAIMER
+
+THE TEMPLATE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. LICENSOR DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED.
+
+---
+
+7. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY DAMAGES ARISING FROM USE OF THE TEMPLATE.
+
+---
+
+8. TERMINATION
+
+This license terminates if Licensee breaches any term. Upon termination, Licensee must cease use and destroy all copies.
+
+---
+
+9. GOVERNING LAW
+
+This Agreement shall be governed by the laws of Bangladesh.
+
+---
+
+10. ENTIRE AGREEMENT
+
+This Agreement constitutes the entire understanding between the parties.
+
+---
+
+For questions, contact: rafi@gmrafi.com.bd
+
+Creator & Seller: Md Golam Mubasshir Rafi
+Website: https://www.gmrafi.com.bd
+GitHub: https://github.com/gmrafi
+
+By using this Template, you acknowledge that you have read and agree to these terms.

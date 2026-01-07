@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>License Activation - ScholarNest Template</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .activation-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center p-4">
+    <div class="activation-card max-w-2xl w-full p-8">
+        <div class="text-center mb-8">
+            <i class="fas fa-key text-6xl text-blue-600 mb-4"></i>
+            <h1 class="text-3xl font-bold text-gray-800 mb-2">License Activation Required</h1>
+            <p class="text-gray-600">To use The Scholar's Nest template, you need to activate your license.</p>
+        </div>
+
+        <div class="space-y-6">
+            <div class="bg-blue-50 p-6 rounded-lg">
+                <h2 class="text-xl font-semibold text-blue-800 mb-4">How to Activate Your License</h2>
+                <ol class="list-decimal list-inside space-y-3 text-gray-700">
+                    <li>Purchase The Scholar's Nest template from <a href="https://digishop.gmrafi.com.bd/checkout/buy/007b3ec2-6f50-4d35-bf50-fa5c6eeef67e" class="text-blue-600 hover:underline" target="_blank">Lemon Squeezy</a></li>
+                    <li>After purchase, you'll receive a license key via email</li>
+                    <li>Download the template files and extract them</li>
+                    <li>Open <code class="bg-gray-200 px-2 py-1 rounded">config.js</code> in a text editor</li>
+                    <li>Replace <code class="bg-gray-200 px-2 py-1 rounded">"YOUR_LICENSE_KEY_HERE"</code> with your actual license key</li>
+                    <li>Save the file and refresh your browser</li>
+                </ol>
+            </div>
+
+            <div class="bg-yellow-50 p-6 rounded-lg">
+                <h2 class="text-xl font-semibold text-yellow-800 mb-4">For GitHub Pages Hosting</h2>
+                <ol class="list-decimal list-inside space-y-2 text-gray-700">
+                    <li>Create a new repository on GitHub</li>
+                    <li>Upload all template files to the repository</li>
+                    <li>Go to Settings → Pages</li>
+                    <li>Select "Deploy from a branch" and choose "main" branch</li>
+                    <li>Your site will be live at <code class="bg-gray-200 px-2 py-1 rounded">https://yourusername.github.io/repository-name</code></li>
+                </ol>
+            </div>
+
+            <div class="bg-green-50 p-6 rounded-lg">
+                <h2 class="text-xl font-semibold text-green-800 mb-4">Need Help?</h2>
+                <p class="text-gray-700 mb-4">If you're having trouble activating your license or setting up the template:</p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="mailto:rafi@gmrafi.com.bd" class="bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors text-center">
+                        <i class="fas fa-envelope mr-2"></i>Contact Support
+                    </a>
+                    <a href="README_FIRST.md" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors text-center">
+                        <i class="fas fa-book mr-2"></i>View Documentation
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-8 text-gray-500">
+            <p>Created by <a href="https://www.gmrafi.com.bd" class="text-blue-600 hover:underline">Md Golam Mubasshir Rafi</a></p>
+        </div>
+    </div>
+
+    <script>
+        // Check if license is already valid
+        document.addEventListener('DOMContentLoaded', () => {
+            // If license manager is loaded and valid, redirect to home
+            if (window.licenseManager && window.licenseManager.isLicenseValid()) {
+                window.location.href = 'index.html';
+            }
+        });
+    </script>
+</body>
+</html>
