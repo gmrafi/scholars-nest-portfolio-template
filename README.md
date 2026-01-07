@@ -8,6 +8,12 @@
 
 **A beautiful, professional portfolio template designed for academics, researchers, and educators. Perfect for showcasing research, publications, and professional achievements.**
 
+<div align="center">
+
+[![Purchase License](https://img.shields.io/badge/Purchase_License-Lemon_Squeezy-FFB84D?style=for-the-badge&logo=stripe&logoColor=white)](https://digishop.gmrafi.com.bd/checkout/buy/007b3ec2-6f50-4d35-bf50-fa5c6eeef67e)
+
+</div>
+
 [**Documentation**](#-documentation) • [**Quick Start**](#-quick-start) • [**Live Hosting License**](#-live-hosting-license) • [**Support**](#-support)
 
 ---
