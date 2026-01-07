@@ -1,4 +1,4 @@
-# 🎓 Scholar's Nest: Academic Portfolio Template
+# Scholar's Nest: Academic Portfolio Template
 
 <div align="center">
 
@@ -8,11 +8,11 @@
 
 **A beautiful, professional portfolio template designed for academics, researchers, and educators. Perfect for showcasing research, publications, and professional achievements.**
 
-[📖 **Documentation**](#-documentation) • [🚀 **Quick Start**](#-quick-start) • [💰 **Live Hosting License**](#-live-hosting-license) • [🆘 **Support**](#-support)
+[**Documentation**](#-documentation) • [**Quick Start**](#-quick-start) • [**Live Hosting License**](#-live-hosting-license) • [**Support**](#-support)
 
 ---
 
-## 📋 **Licensing Model**
+## **Licensing Model**
 
 ### ✅ **Free Use (No License Required)**
 - **Local Testing** - Run on your computer/laptop
@@ -30,37 +30,36 @@
 
 ---
 
-## 👨‍💻 **About the Creator**
+## **About the Creator**
 
 ### **Md Golam Mubasshir Rafi**
 **Full-Stack Developer | Academic Researcher | NASA Space Apps Challenge Global Nominee**
 
-- 🎓 **Education**: BSc in Business Administration, Army Institute of Business Administration, Sylhet
-- 🏆 **Achievements**: NASA Space Apps Challenge Global Nominee, Published Researcher
-- 💼 **Experience**: 3+ years in Web Development
-- 🌟 **Mission**: Empowering researchers with professional digital presence
-- 🔗 **Portfolio**: [www.gmrafi.com.bd](https://www.gmrafi.com.bd)
-- 📧 **Contact**: rafi@gmrafi.com.bd
+- **Achievements**: NASA Space Apps Challenge Global Nominee, Published Researcher
+- **Experience**: 3+ years in Web Development
+- **Mission**: Empowering researchers with professional digital presence
+- **Portfolio**: [www.gmrafi.com.bd](https://www.gmrafi.com.bd)
+- **Contact**: rafi@gmrafi.com.bd
 
 ---
 
-## ✨ **Key Features**
+## **Key Features**
 
-### 🎯 **Academic-Focused Design**
+### **Academic-Focused Design**
 - **Research Publications** section with DOI links
 - **Education & Qualifications** showcase
 - **Professional Achievements** highlighting
 - **Project Portfolio** with GitHub integration
 - **Academic Network** connections
 
-### 🚀 **Technical Excellence**
+### **Technical Excellence**
 - **Fully Responsive** - Perfect on all devices
 - **SEO Optimized** - Meta tags and performance
 - **Fast Loading** - Optimized code and assets
 - **Modern Stack** - HTML5, Tailwind CSS, Font Awesome
 - **License Verification** - Built-in validation system
 
-### 🎨 **Easy Customization**
+### **Easy Customization**
 - **Single Config File** - `config.js` for all content
 - **Color Schemes** - Professional academic themes
 - **Typography** - Clean, readable fonts
@@ -69,32 +68,32 @@
 
 ---
 
-## 📋 **Table of Contents**
+## **Table of Contents**
 
-- [📋 Licensing Model](#-licensing-model)
-- [✨ Key Features](#-key-features)
-- [🚀 Quick Start](#-quick-start)
-- [💰 Live Hosting License](#-live-hosting-license)
-- [📁 Project Structure](#-project-structure)
-- [⚙️ Installation & Setup](#️-installation--setup)
-- [🎨 Customization Guide](#-customization-guide)
-- [🌐 Hosting & Deployment](#-hosting--deployment)
-- [🔧 Advanced Configuration](#-advanced-configuration)
-- [📊 SEO & Performance](#-seo--performance)
-- [🆘 Support & Resources](#-support--resources)
-- [📜 License Information](#-license-information)
-- [🙏 Acknowledgments](#-acknowledgments)
+- [Licensing Model](#licensing-model)
+- [Key Features](#key-features)
+- [Quick Start](#quick-start)
+- [Live Hosting License](#live-hosting-license)
+- [Project Structure](#project-structure)
+- [Installation & Setup](#installation--setup)
+- [Customization Guide](#customization-guide)
+- [Hosting & Deployment](#hosting--deployment)
+- [Advanced Configuration](#advanced-configuration)
+- [SEO & Performance](#seo--performance)
+- [Support & Resources](#support--resources)
+- [License Information](#license-information)
+- [Acknowledgments](#acknowledgments)
 
 ---
 
-## 🚀 **Quick Start**
+## **Quick Start**
 
 ### Prerequisites
-- ✅ Basic HTML/CSS knowledge (optional)
-- ✅ Text editor (VS Code recommended)
-- ✅ Web browser for testing
+- Basic HTML/CSS knowledge (optional)
+- Text editor (VS Code recommended)
+- Web browser for testing
 
-### ⚡ **3-Step Setup**
+### **3-Step Setup**
 
 1. **Download & Extract**
    ```bash
@@ -130,25 +129,25 @@
    # Site live at: https://yourusername.github.io/repo-name
    ```
 
-**🎉 Your academic portfolio will be live in under 10 minutes!**
+**Your academic portfolio will be live in under 10 minutes!**
 
 ---
 
-## 💰 **Live Hosting License**
+## **Live Hosting License**
 
 ### **Why License Required?**
 This template is designed for **personal portfolio websites**. The code is completely free for testing, learning, and local development. However, a license is required when you want to **host your portfolio live on the internet** (GitHub Pages, paid hosting, free hosting, etc.).
 
 ### **Important Clarification:**
-- ✅ **Personal Use Only**: Portfolio websites are for individual academics/researchers
-- ✅ **Non-Commercial**: Not intended for business/commercial websites
-- ✅ **Academic Focus**: Designed for educational and research portfolios
+- **Personal Use Only**: Portfolio websites are for individual academics/researchers
+- **Non-Commercial**: Not intended for business/commercial websites
+- **Academic Focus**: Designed for educational and research portfolios
 
 ### **License Benefits**
-- ✅ **Live Hosting Permission** - Deploy to any web hosting service
-- ✅ **Priority Support** - Direct email support for setup issues
-- ✅ **License Key** - Remove development restrictions
-- ✅ **Future Updates** - Access to template improvements
+- **Live Hosting Permission** - Deploy to any web hosting service
+- **Priority Support** - Direct email support for setup issues
+- **License Key** - Remove development restrictions
+- **Future Updates** - Access to template improvements
 
 ### **Get Your License**
 Contact the creator for licensing information and pricing details.
@@ -157,41 +156,41 @@ Contact the creator for licensing information and pricing details.
 
 ---
 
-## 📁 **Project Structure**
+## **Project Structure**
 
 ```
 scholar-nest-template/
-├── 📄 index.html                 # Main portfolio homepage
-├── 📄 gallery.html              # Photo gallery & media
-├── 📄 research.html             # Research & publications
-├── 📄 services.html             # Professional services
-├── 📄 network.html              # Academic network
-├── 📄 license-activation.html   # License setup guide
-├── 📄 privacy-policy.html       # Privacy policy page
-├── 📄 copyright.html            # Copyright information
-├── ⚙️ config.js                 # Main configuration file
-├── 🔐 license-manager.js        # License validation system
-├── 📜 README.md                 # This documentation
-├── 📜 README_FIRST.md           # Quick setup guide
-├── 📜 LICENSE.md                # License terms
-├── 📜 LICENSE_TERMS.txt         # Detailed license agreement
-├── 📁 photos/                   # Images & media directory
-│   ├── 📄 README.md            # Photo setup instructions
-│   └── 🖼️ Institutional-logo/  # University logos
-├── 📁 files/                    # Documents & downloads
-│   └── 📄 README.md            # File organization guide
-├── 🌐 _headers                  # Security headers
-├── 🔄 _redirects               # URL redirects
-├── 🌐 vercel.json              # Vercel deployment config
-├── 🤖 robots.txt               # Search engine crawling
-├── 🗺️ sitemap.xml              # Site structure map
-├── 📄 CNAME                    # Custom domain config
-└── 📄 .gitignore               # Git ignore rules
+├── index.html                 # Main portfolio homepage
+├── gallery.html              # Photo gallery & media
+├── research.html             # Research & publications
+├── services.html             # Professional services
+├── network.html              # Academic network
+├── license-activation.html   # License setup guide
+├── privacy-policy.html       # Privacy policy page
+├── copyright.html            # Copyright information
+├── config.js                 # Main configuration file
+├── license-manager.js        # License validation system
+├── README.md                 # This documentation
+├── README_FIRST.md           # Quick setup guide
+├── LICENSE.md                # License terms
+├── LICENSE_TERMS.txt         # Detailed license agreement
+├── photos/                   # Images & media directory
+│   ├── README.md            # Photo setup instructions
+│   └── Institutional-logo/  # University logos
+├── files/                    # Documents & downloads
+│   └── README.md            # File organization guide
+├── _headers                  # Security headers
+├── _redirects               # URL redirects
+├── vercel.json              # Vercel deployment config
+├── robots.txt               # Search engine crawling
+├── sitemap.xml              # Site structure map
+├── CNAME                    # Custom domain config
+└── .gitignore               # Git ignore rules
 ```
 
 ---
 
-## ⚙️ **Installation & Setup**
+## **Installation & Setup**
 
 ### **Step 1: Download & Extract**
 ```bash
@@ -239,9 +238,9 @@ photos/
 
 ---
 
-## 🎨 **Customization Guide**
+## **Customization Guide**
 
-### **🎯 Essential Customizations**
+### **Essential Customizations**
 
 #### **1. Personal Information**
 ```javascript
@@ -284,7 +283,7 @@ publications: [
 ]
 ```
 
-### **🔗 Social Media & Academic Profiles**
+### **Social Media & Academic Profiles**
 ```javascript
 social: {
   linkedin: "https://linkedin.com/in/janesmith",
@@ -295,14 +294,14 @@ social: {
 }
 ```
 
-### **📸 Media & Gallery**
+### **Media & Gallery**
 - Add profile photo: `photos/profile.jpg`
 - Add research images to subdirectories
 - Optimize all images under 500KB
 
 ---
 
-## 🌐 **Hosting & Deployment**
+## **Hosting & Deployment**
 
 ### **� Local Testing (Free)**
 ```bash
@@ -311,9 +310,9 @@ python -m http.server 8000
 # Visit: http://localhost:8000
 ```
 
-### **🌍 Live Hosting (License Required)**
+### **Live Hosting (License Required)**
 
-**⚠️ IMPORTANT**: ANY type of internet hosting requires a **Live Hosting License**
+**IMPORTANT**: ANY type of internet hosting requires a **Live Hosting License**
 - GitHub Pages (free hosting)
 - Vercel, Netlify (free/paid hosting)
 - Any web hosting service
@@ -341,7 +340,7 @@ python -m http.server 8000
 - **Cloudflare Pages** - Requires license for live deployment
 - **Any Web Host** - Traditional hosting with license
 
-### **🔑 License Activation for Hosting**
+### **License Activation for Hosting**
 ```javascript
 // Add your license key to config.js BEFORE deploying
 license: {
@@ -357,9 +356,9 @@ license: {
 
 ---
 
-## 🔧 **Advanced Configuration**
+## **Advanced Configuration**
 
-### **🎨 Theme Customization**
+### **Theme Customization**
 ```css
 /* Edit inline styles or add custom CSS */
 /* Primary color: #4E6AFF */
@@ -367,7 +366,7 @@ license: {
 /* Text color: #333333 */
 ```
 
-### **📊 Analytics Integration**
+### **Analytics Integration**
 ```html
 <!-- Add Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
@@ -379,12 +378,12 @@ license: {
 </script>
 ```
 
-### **🔍 Search Console Setup**
+### **Search Console Setup**
 - Add `sitemap.xml` to Google Search Console
 - Submit robots.txt
 - Verify ownership
 
-### **📧 Contact Form Integration**
+### **Contact Form Integration**
 ```javascript
 // Integrate with Formspree, Netlify Forms, or custom backend
 // Example: Netlify Forms
@@ -395,9 +394,9 @@ license: {
 
 ---
 
-## 📊 **SEO & Performance**
+## **SEO & Performance**
 
-### **✅ SEO Optimizations Included**
+### **SEO Optimizations Included**
 - Meta tags for title, description, keywords
 - Open Graph tags for social sharing
 - Twitter Card support
@@ -405,14 +404,14 @@ license: {
 - Semantic HTML5 markup
 - Alt text for all images
 
-### **🚀 Performance Features**
+### **Performance Features**
 - Optimized Tailwind CSS (purged)
 - Lazy loading for images
 - Minified HTML and CSS
 - CDN-hosted fonts and icons
 - Gzip compression ready
 
-### **📈 SEO Checklist**
+### **SEO Checklist**
 - [ ] Update meta descriptions
 - [ ] Add focus keywords
 - [ ] Optimize image alt texts
@@ -422,26 +421,26 @@ license: {
 
 ---
 
-## 🆘 **Support & Resources**
+## **Support & Resources**
 
-### **📞 Getting Help**
-- **📧 Email**: rafi@gmrafi.com.bd
-- **📱 Free Support**: General questions, local testing
-- **🔧 Priority Support**: License holders get direct assistance
-- **⏰ Response Time**: Within 24 hours for license holders
+### **Getting Help**
+- **Email**: rafi@gmrafi.com.bd
+- **Free Support**: General questions, local testing
+- **Priority Support**: License holders get direct assistance
+- **Response Time**: Within 24 hours for license holders
 
-### **📚 Documentation**
+### **Documentation**
 - **[README_FIRST.md](README_FIRST.md)** - Quick setup guide
 - **[License Activation](license-activation.html)** - License setup
 - **[Photo Setup](photos/README.md)** - Image guidelines
 
-### **🛠️ Troubleshooting**
+### **Troubleshooting**
 - **Local Testing**: No license needed, works immediately
 - **License Issues**: Contact support after purchase
 - **Display Problems**: Clear browser cache
 - **Deployment Issues**: License required for live hosting
 
-### **📖 Learning Resources**
+### **Learning Resources**
 - **HTML/CSS Basics**: MDN Web Docs
 - **GitHub Pages**: GitHub Documentation
 - **Tailwind CSS**: Official Documentation
@@ -449,17 +448,13 @@ license: {
 
 ---
 
-## 📜 **License Information**
-
-## 📜 **License Information**
-
-## 📜 **License Information**
+## **License Information**
 
 ### **Free Use Policy**
-- ✅ **Download & Test**: Completely free
-- ✅ **Local Development**: No restrictions on your computer
-- ✅ **Learning & Education**: Study and modify the code
-- ✅ **Personal Academic Use**: For individual researchers/students
+- **Download & Test**: Completely free
+- **Local Development**: No restrictions on your computer
+- **Learning & Education**: Study and modify the code
+- **Personal Academic Use**: For individual researchers/students
 
 ### **Live Hosting License**
 - **Purpose**: Required for ANY internet hosting
@@ -468,17 +463,17 @@ license: {
 - **Contact**: Email creator for licensing details
 
 ### **Important Clarifications**
-- ✅ **Personal Use Only**: Designed for individual academic portfolios
-- ✅ **Non-Commercial**: Not for business/commercial websites
-- ✅ **Academic Focus**: Intended for researchers, students, educators
-- ❌ **No Commercial Use**: Business websites require different licensing
+- **Personal Use Only**: Designed for individual academic portfolios
+- **Non-Commercial**: Not for business/commercial websites
+- **Academic Focus**: Intended for researchers, students, educators
+- **No Commercial Use**: Business websites require different licensing
 
 ### **License Terms**
-- ✅ Free for local testing and development
-- ✅ License required for live website hosting
-- ✅ Personal academic use allowed with license
-- ❌ Template redistribution not allowed
-- ❌ Commercial use not permitted
+- Free for local testing and development
+- License required for live website hosting
+- Personal academic use allowed with license
+- Template redistribution not allowed
+- Commercial use not permitted
 - ❌ Reselling without permission not allowed
 
 ### **License Validation**
@@ -490,12 +485,11 @@ license: {
 
 ---
 
-## 🙏 **About the Creator**
+## **About the Creator**
 
-### **🎯 Md Golam Mubasshir Rafi**
+### **Md Golam Mubasshir Rafi**
 **Full-Stack Developer | Academic Researcher | NASA Space Apps Challenge Global Nominee**
 
-- **Education**: BSc in Business Administration, Army Institute of Business Administration, Sylhet
 - **Research**: Published researcher in academic conferences
 - **Experience**: 3+ years in web development
 - **Achievement**: NASA Space Apps Challenge Global Nominee
@@ -521,21 +515,21 @@ license: {
 - Research collaborators and mentors
 
 ### **Connect with the Creator**
-- 🌐 **Portfolio**: [www.gmrafi.com.bd](https://www.gmrafi.com.bd)
-- 💼 **Services**: [orbitbiz.gmrafi.com.bd](https://orbitbiz.gmrafi.com.bd)
-- 📧 **Email**: rafi@gmrafi.com.bd
-- 🔗 **GitHub**: [github.com/gmrafi](https://github.com/gmrafi)
+- **Portfolio**: [www.gmrafi.com.bd](https://www.gmrafi.com.bd)
+- **Services**: [orbitbiz.gmrafi.com.bd](https://orbitbiz.gmrafi.com.bd)
+- **Email**: rafi@gmrafi.com.bd
+- **GitHub**: [github.com/gmrafi](https://github.com/gmrafi)
 
 ---
 
-## 📞 **Contact & Support**
+## **Contact & Support**
 
 **Need help with setup or customization?**
 
-- 📧 **Email**: rafi@gmrafi.com.bd
-- 🌐 **Website**: [https://www.gmrafi.com.bd](https://www.gmrafi.com.bd)
-- 💼 **Services**: [https://orbitbiz.gmrafi.com.bd](https://orbitbiz.gmrafi.com.bd)
-- 📱 **Response Time**: Within 24 hours
+- **Email**: rafi@gmrafi.com.bd
+- **Website**: [https://www.gmrafi.com.bd](https://www.gmrafi.com.bd)
+- **Services**: [https://orbitbiz.gmrafi.com.bd](https://orbitbiz.gmrafi.com.bd)
+- **Response Time**: Within 24 hours
 
 **Created by Md Golam Mubasshir Rafi** - Full-Stack Developer & Academic Researcher
 
@@ -543,11 +537,11 @@ license: {
 
 <div align="center">
 
-**🎓 Transform your academic journey into a stunning digital portfolio**
+**Transform your academic journey into a stunning digital portfolio**
 
 [![Purchase Now](https://img.shields.io/badge/Purchase_Now-Lemon_Squeezy-FFB84D?style=for-the-badge&logo=stripe&logoColor=white)](https://digishop.gmrafi.com.bd/checkout/buy/007b3ec2-6f50-4d35-bf50-fa5c6eeef67e)
 
-**⭐ Star this repository if you found it helpful!**
+**Star this repository if you found it helpful!**
 
 </div>
 
@@ -557,13 +551,13 @@ For support and customization help:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This is a commercial template. For bug fixes or improvements, please contact the author.
 
 ---
 
-## 📄 Changelog
+## Changelog
 
 ### v1.0
 - Initial release
@@ -1191,7 +1185,7 @@ See [LICENSE.md](LICENSE.md) for complete details on what you can and cannot use
 
 ## 📝 **Template Notes for Buyers**
 
-### **🎯 This is a Template**
+### **This is a Template**
 - **Not a Live Portfolio**: This is a professional template for sale
 - **Requires Customization**: Replace all placeholder content with your information
 - **License Required**: Must purchase and activate license to use
@@ -1220,11 +1214,11 @@ See [LICENSE.md](LICENSE.md) for complete details on what you can and cannot use
 
 <div align="center">
 
-**🎓 Transform your academic journey into a stunning digital portfolio**
+**Transform your academic journey into a stunning digital portfolio**
 
 [![Purchase Now](https://img.shields.io/badge/Purchase_Now-Lemon_Squeezy-FFB84D?style=for-the-badge&logo=stripe&logoColor=white)](https://digishop.gmrafi.com.bd/checkout/buy/007b3ec2-6f50-4d35-bf50-fa5c6eeef67e)
 
-**⭐ Star this repository if you found it helpful!**
+**Star this repository if you found it helpful!**
 
 </div>
 
