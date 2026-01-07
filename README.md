@@ -99,7 +99,7 @@
 1. **Download & Extract**
    ```bash
    # Clone or download the repository
-   git clone https://github.com/yourusername/scholars-nest-portfolio-template.git
+   git clone https://github.com/gmrafi/scholars-nest-portfolio-template.git
    # OR download ZIP and extract
    ```
 
@@ -196,7 +196,7 @@ scholar-nest-template/
 ### **Step 1: Download & Extract**
 ```bash
 # Clone the repository (Free)
-git clone https://github.com/yourusername/scholars-nest-portfolio-template.git
+git clone https://github.com/gmrafi/scholars-nest-portfolio-template.git
 
 # OR download ZIP from GitHub
 # Extract to your project folder
