@@ -47,7 +47,7 @@ const config = {
 
   // License Configuration
   license: {
-    key: "YOUR_LICENSE_KEY_HERE", // Replace with your Lemon Squeezy license key
+    key: "BF3F0EA4-294D-4092-ABCF-E9304AD7FD26", // Replace with your Lemon Squeezy license key
     productId: "761482", // Lemon Squeezy product ID
     apiUrl: "https://api.lemonsqueezy.com/v1/licenses/validate"
   },
