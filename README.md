@@ -1,5 +1,7 @@
 # Scholar's Nest: Academic Portfolio Template
 
+> **🚀 DEMO BRANCH**: This is the live demonstration version. See the working template at [demo.scholars-nest.com](https://demo.scholars-nest.com) (link to be updated after hosting)
+
 <div align="center">
 
 ![Scholar's Nest](https://img.shields.io/badge/Scholar's_Nest-Academic_Portfolio-4E6AFF?style=for-the-badge&logo=github&logoColor=white)
