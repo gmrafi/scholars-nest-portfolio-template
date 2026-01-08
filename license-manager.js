@@ -279,6 +279,29 @@ if (document.body) {
   }, 100);
 }
 
+// Also initialize on window load as a fallback
+window.addEventListener('load', async () => {
+  console.log("Window load event fired - initializing license manager as fallback");
+  if (!window.licenseManager) {
+    const licenseManager = new LicenseManager();
+    await licenseManager.init();
+    window.licenseManager = licenseManager;
+  }
+});
+
+// Immediate initialization as final fallback
+console.log("License manager script loaded, attempting immediate initialization");
+setTimeout(async () => {
+  console.log("Running immediate license manager initialization");
+  if (!window.licenseManager) {
+    const licenseManager = new LicenseManager();
+    await licenseManager.init();
+    window.licenseManager = licenseManager;
+  } else {
+    console.log("License manager already initialized");
+  }
+}, 500);
+
 // Export for module use
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = LicenseManager;
