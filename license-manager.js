@@ -3,9 +3,6 @@
 // Created by: Md Golam Mubasshir Rafi (https://www.gmrafi.com.bd)
 // Security Note: Client-side validation can be bypassed, but API validation provides real protection
 
-console.log("LicenseManager: Script loaded successfully");
-
-
 class LicenseManager {
   constructor() {
     this.licenseKey = config.license.key;
@@ -17,35 +14,22 @@ class LicenseManager {
 
   // Initialize license validation
   async init() {
-    console.log("LicenseManager: Starting initialization...");
-    console.log("License key:", this.licenseKey);
-    console.log("API URL:", this.apiUrl);
-
     if (!this.licenseKey || this.licenseKey === "YOUR_LICENSE_KEY_HERE") {
       console.warn("License key not set. Please add your Lemon Squeezy license key to config.js");
       this.showLicenseWarning();
       return false;
     }
 
-    // TEMPORARY: Force showing license error for testing
-    console.log("TEMPORARY: Forcing license error display for testing");
-    this.showLicenseError();
-    return false;
-
     try {
-      console.log("LicenseManager: Calling validateLicense...");
       const isValid = await this.validateLicense();
-      console.log("LicenseManager: Validation result:", isValid);
       this.isValid = isValid;
       this.validationChecked = true;
 
       if (!isValid) {
-        console.log("LicenseManager: License invalid, showing error");
         this.showLicenseError();
         return false;
       }
 
-      console.log("LicenseManager: License valid");
       return true;
     } catch (error) {
       console.error("License validation failed:", error);
@@ -56,12 +40,10 @@ class LicenseManager {
 
   // Validate license with Lemon Squeezy API
   async validateLicense() {
-    console.log("LicenseManager: Starting API validation...");
     // Primary protection: Server-side API validation
     try {
       const formData = new URLSearchParams();
       formData.append('license_key', this.licenseKey);
-      console.log("LicenseManager: Making API request to:", this.apiUrl);
 
       const response = await fetch(this.apiUrl, {
         method: 'POST',
@@ -72,14 +54,11 @@ class LicenseManager {
         body: formData
       });
 
-      console.log("LicenseManager: API response status:", response.status);
-
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
 
       const data = await response.json();
-      console.log("LicenseManager: API response data:", data);
       return data.valid === true;
 
     } catch (error) {
@@ -92,12 +71,9 @@ class LicenseManager {
 
   // Fallback validation for development
   fallbackValidation() {
-    console.log("LicenseManager: Running fallback validation...");
     // Basic UUID format check for Lemon Squeezy license keys
     const keyPattern = /^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/;
-    const isValid = keyPattern.test(this.licenseKey);
-    console.log("LicenseManager: Fallback validation result:", isValid);
-    return isValid;
+    return keyPattern.test(this.licenseKey);
   }
 
   // Show license warning for missing key
@@ -267,23 +243,19 @@ class LicenseManager {
 
 // Initialize license manager when DOM is loaded
 document.addEventListener('DOMContentLoaded', async () => {
-  console.log("LicenseManager: DOMContentLoaded fired, initializing...");
   const licenseManager = new LicenseManager();
   await licenseManager.init();
 
   // Make license manager available globally
   window.licenseManager = licenseManager;
-  console.log("LicenseManager: Initialization complete");
 });
 
 // Also try to initialize immediately if body exists (for cases where DOMContentLoaded already fired)
 if (document.body) {
-  console.log("LicenseManager: Body exists, initializing immediately...");
   setTimeout(async () => {
     const licenseManager = new LicenseManager();
     await licenseManager.init();
     window.licenseManager = licenseManager;
-    console.log("LicenseManager: Immediate initialization complete");
   }, 100);
 }
 
