@@ -3,6 +3,9 @@
 // Created by: Md Golam Mubasshir Rafi (https://www.gmrafi.com.bd)
 // Security Note: Client-side validation can be bypassed, but API validation provides real protection
 
+console.log("LicenseManager: Script loaded successfully");
+
+
 class LicenseManager {
   constructor() {
     this.licenseKey = config.license.key;
@@ -264,12 +267,25 @@ class LicenseManager {
 
 // Initialize license manager when DOM is loaded
 document.addEventListener('DOMContentLoaded', async () => {
+  console.log("LicenseManager: DOMContentLoaded fired, initializing...");
   const licenseManager = new LicenseManager();
   await licenseManager.init();
 
   // Make license manager available globally
   window.licenseManager = licenseManager;
+  console.log("LicenseManager: Initialization complete");
 });
+
+// Also try to initialize immediately if body exists (for cases where DOMContentLoaded already fired)
+if (document.body) {
+  console.log("LicenseManager: Body exists, initializing immediately...");
+  setTimeout(async () => {
+    const licenseManager = new LicenseManager();
+    await licenseManager.init();
+    window.licenseManager = licenseManager;
+    console.log("LicenseManager: Immediate initialization complete");
+  }, 100);
+}
 
 // Export for module use
 if (typeof module !== 'undefined' && module.exports) {
